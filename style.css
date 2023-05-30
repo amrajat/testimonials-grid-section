@@ -123,7 +123,6 @@ STYLE
 body {
   display: grid;
   place-items: center;
-  height: 100%;
   overflow-x: hidden;
 
   font: 400 var(--font-size-default) var(--font-primary);
@@ -393,6 +392,7 @@ a:active {
 
 @media only screen and (max-width: 56.25em) {
   .container {
+    margin: 1rem;
     grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
     grid-template-rows: repeat(4, [row-start] min-content [row-end]);
   }
