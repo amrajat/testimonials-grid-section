@@ -139,7 +139,6 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  height: 100%;
   overflow-x: hidden;
 
   font: 400 var(--font-size-default) var(--font-primary);
@@ -577,6 +576,7 @@ a:active {
 
 @media only screen and (max-width: 56.25em) {
   .container {
+    margin: 1rem;
     -ms-grid-columns: ([col-start] 1fr [col-end]) [4];
     grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
     -ms-grid-rows: ([row-start] -webkit-min-content [row-end]) [4];
